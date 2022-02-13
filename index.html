@@ -3,12 +3,28 @@
 
 <head>
     <meta charset=utf-8/>
+    <title>hw-04</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
-
 <body>
+  <h1> Event Handling </h1>  
+  <div class="center">
+    <svg>
+        <circle id = "circle1" cx="80" cy="80" r="50" onclick="circle1Clicked()"/>
+        <text id="circle1Counter" x="80" y="80" fill="black">0</text>
+    </svg>
 
+    <svg>
+        <circle id="circle2" cx="80" cy="80" r="50" onmouseover="showOutline()" onmouseout="hideOutline()"/>
+    </svg>
 
+    <svg class="visible">
+        <circle id="circle3"  cx="80" cy="80" r="50" onclick="circle3Clicked()"/>
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

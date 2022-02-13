@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.center {
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#circle1 {
+    fill: lightblue;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+#circle2 {
+    fill: lightgreen;
+}
+
+#circle3 {
+    fill: lavender;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.invisible {
+    opacity: 0;
+
+}
+
+.visible {
+    opacity: 1;
+}
