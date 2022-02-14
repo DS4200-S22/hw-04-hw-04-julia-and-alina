@@ -34,9 +34,9 @@ function circle3Clicked() {
         let currentState = document.getElementById("circle3").getAttribute("class"); 
 
         // Change visibility 
-        if (currentState == "visible") {
-            document.getElementById("circle3").setAttribute("class", "invisible"); 
-        } else {
+        if (currentState === "invisible") {
             document.getElementById("circle3").setAttribute("class", "visible"); 
+        } else {
+            document.getElementById("circle3").setAttribute("class", "invisible"); 
         }
 }
