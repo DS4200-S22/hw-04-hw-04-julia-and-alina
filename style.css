@@ -4,7 +4,7 @@ body {
 }
 
 .center {
-    padding-left: 150px;
+    padding-left: 140px;
     display: flex;
     justify-content: space-evenly;
 }
